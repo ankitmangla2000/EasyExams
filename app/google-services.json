@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "997174859306",
+    "project_id": "exams-android",
+    "storage_bucket": "exams-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997174859306:android:538344065f0453fa475553",
+        "android_client_info": {
+          "package_name": "com.corp.ankit.deca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8hyIh3lbtgQri98P6cQXUvtzp1IqDMz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

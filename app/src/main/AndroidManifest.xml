@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.corp.ankit.deca">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/round_pre_good"
+        android:label="Easy Exams"
+        android:roundIcon="@mipmap/round_pre_good"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.corp.ankit.deca.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.corp.ankit.deca.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.corp.ankit.deca.ExamActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.corp.ankit.deca.Learn" />
+        <activity
+            android:name="com.corp.ankit.deca.EndGame"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.corp.ankit.deca.WrongAnswersActivity" />
+        <activity android:name="com.corp.ankit.deca.FullExam" />
+        <activity
+            android:name="com.corp.ankit.deca.PerformanceIndicators"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.corp.ankit.deca.ChooseExam" />
+
+        <activity
+            android:name="com.corp.ankit.deca.QuestionBankActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.corp.ankit.deca.LoginActivity" />
+        <activity android:name="com.corp.ankit.deca.RegisterActivity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
